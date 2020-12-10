@@ -1,0 +1,93 @@
+@media only screen and (max-width:992px) {
+    .custom_ul li a {
+        font-size: 17px;
+        padding: 8px 16px !important;
+        transition: all .5s ease-in-out
+    }
+}
+
+@media only screen and (max-width:790px) {
+    .custom-nav {
+        padding: 18px 0;
+        background: #fff
+    }
+
+    .navbar .logo-light {
+        display: none
+    }
+
+    .navbar .logo-dark {
+        display: block
+    }
+
+    .fa-bars {
+        color: #000 !important
+    }
+
+    .custom-nav .custom_ul li a {
+        color: #000 !important
+    }
+}
+
+@media only screen and (max-width:768px) {
+    #header {
+        height: 90vh
+    }
+
+    .custom-nav {
+        padding: 10px 0
+    }
+
+    .heading_1 {
+        font-size: 35px
+    }
+
+    .h2,
+    h2 {
+        font-size: 1.7rem
+    }
+
+    p.description {
+        line-height: 1.4
+    }
+
+    #switcher .settings {
+        width: 40px;
+        height: 40px
+    }
+
+    #switcher .settings i {
+        font-size: 20px;
+        line-height: 39px
+    }
+
+    .work_button li a {
+        padding: 10px 10px
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .header_content {
+        width: 90%
+    }
+
+    .custom-nav {
+        padding: 10px 10px
+    }
+
+    .stickyadd.custom-nav {
+        padding: 10px 10px
+    }
+
+    .custom-btn {
+        border-radius: 30px;
+        padding: 7px 25px;
+        border: 2px solid #fff !important
+    }
+
+    .work_button li a.active,
+    .work_button li a:hover {
+        border-radius: 13px;
+        padding: 7px 10px
+    }
+}
